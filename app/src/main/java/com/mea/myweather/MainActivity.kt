@@ -11,8 +11,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun tpush (view: View) {
-        val myPush = Toast.makeText(this, "Push W!", Toast.LENGTH_SHORT)
-        myPush.show()
-    }
+
 }
